@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "segunda-aula",
-    "slug": "segunda-aula",
+    "name": "caculator-imc",
+    "slug": "caculator-imc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
