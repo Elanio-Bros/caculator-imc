@@ -45,13 +45,14 @@ const style = StyleSheet.create({
     paddingBottom: 14,
     marginLeft: 12,
     marginTop: 30,
-    // Não sei se isso é correto
+
+    // Não sei se isso é correto na documentação 
     Text: {
       fontSize: 20,
       color: "#FFFFFF",
     },
   },
-  
+
   errorMessage: {
     fontSize: 12,
     color: "red",

@@ -27,14 +27,14 @@ export default function Form() {
       setTextButton("Calcular Novamente");
       return;
     }
-    verificationImc();
     setImc(null);
     setMessageImc("Prencha o peso e altura");
     setTextButton("Calcular");
+    verificationImc();
   }
 
   function verificationImc() {
-    if (imc == null) {
+    if ((weight == null || weight == "") && (height == null || height == "")) {
       setErrorMessage("Campo obrigatorio*");
       Vibration.vibrate();
     }
