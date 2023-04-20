@@ -51,6 +51,13 @@ const style = StyleSheet.create({
       color: "#FFFFFF",
     },
   },
+  
+  errorMessage: {
+    fontSize: 12,
+    color: "red",
+    fontWeight: "bold",
+    paddingLeft: 20,
+  },
 });
 
 export default style;
