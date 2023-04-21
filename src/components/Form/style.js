@@ -45,13 +45,36 @@ const style = StyleSheet.create({
     paddingTop: 14,
     paddingBottom: 14,
     marginLeft: 12,
-    marginTop: 30,
+    marginTop: 20,
 
     // Não sei se isso é correto na documentação
     Text: {
       fontSize: 20,
       color: "#FFFFFF",
     },
+  },
+
+  exhibitionResultImc: {
+    width: "100%",
+    height: "50%",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  listImc: {
+    marginTop: 20,
+  },
+
+  resultImcItem: {
+    fontSize: 20,
+    color: "#57C5B6",
+    height: 50,
+    width: "100%",
+  },
+
+  resultImcItemList: {
+    fontSize:25,
+    color: "#57C5B6",
   },
 
   errorMessage: {
